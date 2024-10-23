@@ -1,0 +1,14 @@
+:root{
+  --primary: #ffd803;
+  --bg: #fffffe;
+  --black: #272343;
+  --paragraph: #2d334a;
+  --secondary: #e3f6f5;
+  --tertiary: #bae8e8;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
