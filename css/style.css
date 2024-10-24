@@ -22,55 +22,55 @@ body {
   font-family: "Figtree", sans-serif;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-.container{
+.container {
   max-width: 1120px;
   margin: 0 auto;
   height: auto;
 }
 
-.grid{
+.grid {
   display: grid;
 }
 
-.section{
+.section {
   padding: 5rem 3rem;
 }
 
-.headline{
+.headline {
   text-align: center;
   font-size: 2rem;
   font-weight: 700;
 }
 
-.main-card{
+.main-card {
   margin-top: 1.5rem;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
 }
 
-.img{
+.img {
   width: 100%;
   height: 300px;
   border-radius: 1.5rem;
   object-fit: cover;
 }
 
-.rating{
+.rating {
   position: absolute;
   top: 1.5rem;
   right: 1.5rem;
-  padding: .5rem;
+  padding: 0.5rem;
   background-color: var(--primary);
   color: var(--black);
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   font-weight: 600;
 }
 
-.card{
+.card {
   position: relative;
   padding: 1rem;
   border-radius: 1rem;
@@ -78,29 +78,24 @@ a{
   box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
 }
 
-/* .small-card{
-  background-color: var(--primary);
-} */
-
-.title-anime{
+.title-anime {
   font-size: 1.5rem;
   font-weight: 700;
   color: var(--bg);
-  /* margin-bottom: .5rem; */
 }
 
-.episode{
+.episode {
   color: var(--bg);
   font-weight: 400;
 }
 
-.description{
-  margin-top: .5rem;
+.description {
+  margin-top: 0.5rem;
   color: var(--bg);
   font-weight: 300;
 }
 
-.btn{
+.btn {
   display: block;
   text-align: center;
   color: var(--black);
@@ -108,15 +103,15 @@ a{
   margin-top: 1rem;
   width: 100%;
   padding: 1rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   font-weight: 700;
   background-color: var(--tertiary);
-  transition: scale .3s linear, background-color .4 linear, color .3s linear;
+  transition: scale 0.3s linear, background-color 0.4 linear, color 0.3s linear;
   border: 3px solid var(--tertiary);
 }
 
-.btn:hover{
+.btn:hover {
   scale: 1.01;
   background-color: transparent;
-  color: var(--tertiary)  ;
+  color: var(--tertiary);
 }
